@@ -10,6 +10,7 @@ header {
   padding: 1px;
   margin: 0px auto;
   max-width: 800px;
+  font-weight: 900em;
 }
 
 nav {
@@ -28,11 +29,8 @@ ul li {
   color: white;
   padding: 5px;
   font-weight: bold;
-}
-
-main {
-  margin: 2px;;
-  margin-right: 10px
+  /*white-space: nowrap;*/
+  /*margin: 0px;*/
 }
 
 h2 {
@@ -40,19 +38,18 @@ h2 {
   width: auto;
   padding: 5px;
   font-weight: normal;
-}
-
-.edit {
-  background-color: yellow;
-  padding-left: auto;
-  width: 230px;
-  text-align: center;
-  text-decoration: none;
+  margin-right: 10px;
 }
 
 .option {
     list-style-type: none;
-}
+    background-color: yellow;
+    padding-left: auto;
+    width: 233px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
 
 .main_box {
   margin: 25px;
@@ -62,7 +59,8 @@ h2 {
 
 .one {
   display: inline-block;
-  margin: 2px;
+  margin-bottom: : 2px;
+  /*line-height: 0;*/
 }
 
 footer {
